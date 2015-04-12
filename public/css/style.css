@@ -39,6 +39,49 @@ header #navbar li a{
 	text-transform: uppercase;
 }
 
+input[type="text"],
+input[type="password"]{
+	width: 100%;
+	border: 2px solid #F5E8E4;
+	line-height: 20px;
+	padding: 10px;
+}
+
+button.action{
+background: #212121;
+  width: 96%;
+  border: none;
+  
+  margin-top: 20px;
+  box-sizing: content-box;
+  color: #fff;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+
+}
+
+button.action.alerta{
+background: #fff;
+  color: #FF4D4D;
+  border: 1px solid #FF4D4D;
+  box-sizing: border-box;
+  height: 42px;
+}
+
+#account h1,
+#profile-pet h1{
+	  color: #4C3D42;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#profile-pet{
+	font-size: 16px;
+	font-weight: normal;
+}
+
 .cover{
 	background: url(../img/cover.jpg) center top no-repeat;
 	background-size: cover;
@@ -128,7 +171,7 @@ footer{
 }
 
 footer #texto-apoio p{
-	padding-left: 15px;
+	padding: 15px 0 15px 15px;
 	border-left: 1px dotted #F5E8E4;
 	color: #F5E8E4;
 }
